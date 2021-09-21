@@ -36,8 +36,7 @@
             if (!mysqli_query($conexao, $sql)) {
                 echo "Erro: " . $sql . "<br>" . mysqli_error($conexao);
             } else {
-            // teu código aqui
-            
+                  
             
             $resposta = mysqli_query($conexao,$sql);
 
